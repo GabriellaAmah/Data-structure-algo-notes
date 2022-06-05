@@ -1,0 +1,49 @@
+What is Big O notation ???
+    Big O notation in regards to algorithm and data-structure is used to measure complexity of an 
+    algorithm in relation to time and space. it helps to determine the cost and tradeoffs of implementing one algorithm over another.
+
+    -- Time complexity
+        This helps us to test the performance of an algorithm in relation to how fast the runtime is or the amount of time needed to complete an algorithm
+        using Big O to calculate the runtime of an algorithm tells us how the runtime of an algorithm grows as the input grows.
+    
+    -- Space complexity
+        this helps us to determine the space allocated for an algorithm during runtime
+
+    - O(n) = n - Linear complexity -- implies that as the input increases, the runtime also increases
+    -O(n) = n^2 - Quadratic complexity -- implies that as the input increase, the runtime increases at an exponent of 2 
+    -0(n) = 1 - Constant complexity -- implies that as the input increases, the runtime remains constant
+
+
+    Rules for Big O notation
+            - Constants do not matter
+                O(2n) = O(n)
+                O(500) = O(1)
+                O(3n^2) = O(n^2)
+            - Smaller terms don't matter
+                O(n + 10) = O(n)
+                O(1000n + 50) = O(n)
+            - Sum Rule
+                O(g(n)) + O(f(n)) = O(n)
+            - Product Rule
+                O(g(n)) * O(f(n)) = O(n^2)
+
+   Big O shorthand
+        Time
+            - Arithmetic operations are constant
+            - Variable assignments are constant
+            - In a loop, the complexity is the length of the loop
+
+            -Objects
+                - access / removal / insertion - O(1)
+                - Searching - O(n)
+            
+            - Array
+                - searching -  O(n)
+                - access -  O(1)
+                - shift and unshift -  O(n)
+                - push and pop -  O(1)
+        
+        Space
+            - Primitive values have constant Space
+
+
