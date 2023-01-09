@@ -1,0 +1,22 @@
+The idea behind bubble sort is that large items bubble from the bottom to their position at the top of the
+by swapping as the bubble
+
+we start by having an array that loops from top to bottom with index starting at arr.length and stopping when i = 1
+we also have a nested loop that runs from 0 to the index of our first array. since larger number bubble from bottom to top, we believe that the rigth hand side of the array is always sorted as we loop downwards and
+
+e.g [30, 78, 2, 5, 100, 50]
+
+our i starts at arr.length = 6
+while our nested loop j start at 0
+
+we begin to compare j and j + 1. if j > j + 1, we swap and our j increments till it reaches i - 1
+from this, we can observe that the last item in the array is sorted and
+
+what happens when items in the array are fully sorted and we do not want to contionusly go over our array looking for items to swap?
+
+we create a variable called noSwap. at every i decrement, noSwap is stored as true and for every j increment when a swap occurred, noSwap will revert to false and
+when we experience no swap when j runs, then we say our array has been fully sorted and break out of our loop and
+
+
+
+time complexity = 0(n^2) due to our nested loop

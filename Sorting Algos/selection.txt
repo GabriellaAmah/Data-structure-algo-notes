@@ -1,0 +1,11 @@
+the idea behind selection sort is to fin the smallest value at the right hand of our current index and perform a swap with the index of that value. This is
+
+we start by looping through our array starting at i = 0 and the loop runs till the end of the array at i < arr.length
+we create another nested loop that starts from i + 1 till the end of the array. we do not loop through the left hand of the array agin because we are putting the smallest value there hence we believe it is sorted in
+
+we create a variable min and assign its value as the current index of i. we
+
+when j loops, we compare if arr[j] < arr[min] if it is, we assign j as the value of min and swap when j has finished looping and
+
+
+the time complexity for this - 0(n^2) due to our nested array that runs for every interation in our loop

@@ -1,0 +1,4 @@
+the idea behind merge sort is that an array is splited into its lowest possible subarray which is one element in the array
+and then sort and merge the subarrays recursively 
+
+the time complexity for this is 0(n log n) this is because it takes 0(logn) time to split or break down an array and its subarray while it takes 0(n) time to loop and merge the subarray back

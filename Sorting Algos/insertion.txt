@@ -1,0 +1,9 @@
+this is done on the basis that one portion of the array is already sorted. we start a loop through our array at index of 1 and we save the vale of this index in the array. This
+
+we start another loop called j that loops from i - 1 til it is equal to zero or the value of index j is less than the value of index i
+we compare if the value of index j is greater than j + 1 and if its is, the value of j + 1 becomes the current value of j
+everytime this chamge occurs, the count of j is stored to a seperate variable where the value of the index of the count become the value of our current arr[i]
+
+
+time complexity for this 0(n^2)
+

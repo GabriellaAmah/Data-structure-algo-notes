@@ -1,0 +1,15 @@
+the idea behind quick sort is to find a pivot index and sort it such that the values smaller than the value of the pivot index are in one part of the array and
+ the value smaller than the value of the pivot index are in another part of the pivot index.
+
+ to find the pivotIndex, we first have our start and end values. we create a variable called pivot which stores the value of our start index which would serve as the pivot.
+ we also create a  variable called swapIndex that keeps record of the number of swaps and the index of our last swap which
+
+
+ we start a loop where i = start and i runs till the value of end and increments on every iteration.
+ if the current value of i at arr[i] is less than our pivot, we increment swapIndex and the swap the values of i and our swapIndex
+
+ when our loop has finished running, we swap arr[start] with the arr[swapIndex] and
+
+ we return swapIndex as the pivot index and we recursively do this for the both sides of our swap index
+
+ the time complexity for this is O(n log n)
